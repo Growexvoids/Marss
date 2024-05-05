@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+
+.menu li a:hover {
+    color: #1AAB7B;
+
+}
+
+.btn {
+    padding: 12px 24px;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+.btn:hover {
+    background-color: white;
+    border: 1px solid #1AAB7B;
+    color: #1AAB7B;
+}
+
+.video {
+    width: 592px;
+    height: 334px;
+
+    border-radius: 6px 0px 0px 0px;
+
+
+}
+
+.article {
+    margin-top: 92px;
+    display: flex;
+    gap: 74px;
+    justify-content: center;
+    padding-bottom: 110px;
+}
+
+h1 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 78.4px;
+
+
+}
+
+.article-text {
+    max-width: 550px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #636F87;
+    margin-top: 20px;
+
+
+}
+
+.btn2 {
+    padding: 20px 40px;
+    color: white;
+    background-color: #1AAB7B;
+    border: 0px;
+    border-radius: 6px;
+    margin-top: 40px;
+}
+
+.btn2:hover {
+    background-color: white;
+    border: 1px solid #1AAB7B;
+    color: #1AAB7B;
+}
+
+.h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.help{
+    padding: 50px 0;
+    background-color: #f2f4f6;
+
+}
+.card{
+    max-width: 384px;
+    border: 2px solid #E1E7ED;
+    padding: 40px 30px;
+    border-radius: 6px;
+    margin-top: 40px;
+}
+.h3{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 32px;
+font-weight: 600;
+line-height: 44.8px;
+text-align: left;
+
+}
+.p3{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+color: #636F87;
+padding-bottom: 50px;
+
+}
+.view{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+color: black;
+
+}
+.ota{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    
+}
+.card h3::after{
+    content: url("./img/Group\ 39346.png");
+    margin-left: 20px;
+    
+}
+.card:hover{
+    background-color: #1AAB7B;
+    border: 0px;
+}
+.card:hover h3{
+    color: white;
+}
+.card:hover .p3{
+    color: white;
+}
+.card:hover a{
+    color: white;
+    text-decoration: underline;
+}
